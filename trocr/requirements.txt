@@ -11,3 +11,4 @@ h5py
 numpy
 fastwer
 git+https://github.com/pytorch/fairseq.git
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
