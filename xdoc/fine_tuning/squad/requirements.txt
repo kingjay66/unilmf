@@ -4,3 +4,4 @@ datasets==2.6.1
 numpy==1.21.6
 torch
 IPython
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
