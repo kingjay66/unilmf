@@ -1,6 +1,8 @@
 sklearn
-transformers==4.23.1
+transformers==4.37.0
 datasets==2.6.1
-numpy==1.21.6
+numpy==1.22.2
 torch
 IPython
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
