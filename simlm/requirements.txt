@@ -1,4 +1,4 @@
-torch>=1.7
+torch>=2.2.0
 transformers==4.15.0
 datasets==2.0.0
 pytrec_eval
@@ -7,3 +7,4 @@ ir_datasets==0.5.0
 pyserini==0.15.0
 tqdm
 numpy
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability
