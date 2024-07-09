@@ -10,3 +10,4 @@ scipy
 seqeval 
 sklearn 
 urllib3==1.26.5
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
