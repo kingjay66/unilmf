@@ -7,3 +7,4 @@ ir_datasets==0.5.0
 pyserini==0.15.0
 tqdm
 numpy
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
