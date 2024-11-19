@@ -7,3 +7,4 @@ ir_datasets==0.5.0
 pyserini==0.15.0
 tqdm
 numpy
+aiohttp>=3.10.11 # not directly required, pinned by Snyk to avoid a vulnerability
