@@ -5,3 +5,4 @@ datasets==2.6.1
 pillow==5.2.0
 torch
 seqeval
+aiohttp>=3.10.11 # not directly required, pinned by Snyk to avoid a vulnerability
