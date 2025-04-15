@@ -4,3 +4,4 @@ datasets==2.6.1
 numpy==1.21.6
 torch
 IPython
+aiohttp>=3.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
