@@ -14,3 +14,4 @@ pyyaml
 webdataset
 omegaconf==2.0.0
 pytorch-lightning==1.6.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
