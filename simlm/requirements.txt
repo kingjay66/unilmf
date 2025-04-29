@@ -7,3 +7,4 @@ ir_datasets==0.5.0
 pyserini==0.15.0
 tqdm
 numpy
+sympy>=1.12 # not directly required, pinned by Snyk to avoid a vulnerability
