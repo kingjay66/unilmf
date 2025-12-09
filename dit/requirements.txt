@@ -12,3 +12,4 @@ tensorboardX
 deepspeed==0.4.0
 scipy
 opencv-python
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
