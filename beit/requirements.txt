@@ -1,4 +1,4 @@
-torch==1.7.1
+torch==2.9.0
 torchvision==0.8.2
 timm==0.3.2
 Pillow
@@ -12,3 +12,5 @@ tensorboardX
 deepspeed==0.15.2
 scipy
 zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
