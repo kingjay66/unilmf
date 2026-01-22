@@ -9,9 +9,11 @@ sacred==0.8.2
 pandas==1.1.5
 timm==0.4.12
 torchmetrics==0.7.3
-torch==1.8.0
+torch==2.10.0
 torchvision==0.9.0
 fairscale==0.4.0
 numpy
 scipy
 opencv-python
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
