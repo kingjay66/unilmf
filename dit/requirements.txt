@@ -1,4 +1,4 @@
-torch==1.9.0
+torch==2.10.0
 torchvision==0.10.0
 timm==0.5.4
 Pillow
@@ -12,3 +12,4 @@ tensorboardX
 deepspeed==0.4.0
 scipy
 opencv-python
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
